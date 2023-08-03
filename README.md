@@ -1,7 +1,7 @@
 # Adventua
 Introducing Adventua - where wanderlust meets innovation. Embark on unforgettable journeys with our captivating frontend website, meticulously crafted using HTML, CSS, and JS. Explore, book, and create cherished memories effortlessly. Welcome to a world of adventure at your fingertips.
 
-Live Link - 
+Live Link - https://prabhjotschugh.github.io/Adventua/
 
 # Homepage
 
