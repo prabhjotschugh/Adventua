@@ -1,0 +1,419 @@
+/* NAVBAR */
+*{
+    scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+}
+.navbar-brand {
+    font-family: 'Amita', cursive;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+/* Home */
+.home {
+    background-image: url(images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.home h1 {
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.50);
+
+}
+
+.home h5 {
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.50);
+
+}
+
+button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.0px;
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(10, 53, 98);
+    box-shadow: 0px 15px 20px #0158b46e;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+.buttons {
+    padding-top: 40px;
+}
+
+.home i {
+    font-size: 30px;
+    position: relative;
+    top: 8px;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+    color: white;
+}
+
+.nested-wrapper {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.item h2 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.item h5 {
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: left;
+    color: #C5DAFF;
+}
+
+/* SECOND PAGE */
+.second-page h1 {
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+.dropdown .buttons {
+    border-radius: 2em 0 0 2em;
+    background-color: #F6F5F8;
+    border: none;
+    width: 300px;
+    color: #8D8D89;
+    padding: 18px 25px;
+    box-shadow: none;
+    font-size: 18px;
+    
+
+}
+
+.dropdown button i {
+    color: rgb(43, 129, 221);
+}
+.search-button{
+    position: relative;
+    right: 50px;
+    background-color: rgb(43, 129, 221);
+    color: white;
+    padding: 22px 50px;
+}
+
+.second-page small {
+    font-size: 18px;
+    color: rgb(43, 129, 221);
+    font-weight: 500;
+}
+
+.second-page .choto {
+    color: #8D8D89;
+    font-weight: 400;
+}
+
+.second-page h1 {
+    font-weight: 500;
+    font-size: 55px;
+    margin-top: 10px;
+}
+
+.second-page .text-center {
+    margin-top: 96px;
+}
+
+.menu2 {
+    border: 2px solid rgb(43, 129, 221);
+    background: #FFFFFF;
+    border-radius: 0;
+    color: #8D8D89;
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 5px 20px;
+}
+
+.item button {
+    background-color: #F6F5F8;
+}
+
+.item button:hover {
+    background-color: rgb(43, 129, 221);
+}
+
+.nav-tools {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    color: white;
+}
+
+#blue-button {
+    background-color: rgb(43, 129, 221);
+    color: white;
+}
+
+#blue-button:hover {
+    background-color: #F6F5F8;
+    color: black;
+}
+
+/* CARDS */
+.carda {
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.carda:hover{
+    transform: translateY(-15px);
+    transition: transform 0.5s;
+    cursor: pointer;
+    
+}
+.card-img {
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-content {
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.card-price {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* TESTIMONIAL */
+.testimonial .carda {
+    box-shadow: 35px 91px 39px rgba(175, 172, 172, 0.02), 19px 51px 33px rgba(175, 172, 172, 0.08), 9px 23px 24px rgba(175, 172, 172, 0.13), 2px 6px 13px rgba(175, 172, 172, 0.15), 0px 0px 0px rgba(175, 172, 172, 0.15);
+}
+
+.testimonial .carda h6{
+    color: #1E1E1E;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 10px;
+}
+.testimonial .card-content{
+    text-align: left;
+    padding-bottom: 0;
+}
+.testimonial .card-title{
+    padding-bottom: 0;
+}
+.testimonial i{
+    font-size: 23px;
+    color: #0157B4;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.testimonial .wrapper{
+    display: flex;
+    gap: 0;
+    color: #1E1E1E;
+    justify-content: left;
+}
+
+.testimonial .wrapper i{
+    font-size: 10px;
+    padding: 0;
+    color: #FFA800;
+}
+.testimonial .wrapper h6{
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.testimonial .carda:hover{
+    transform: translateY(-15px);
+    transition: transform 0.5s;
+    cursor: pointer;
+    
+}
+
+.footerup {
+    background-color: #FFFFFF;
+}
+
+.footerup a {
+    color: #1E1E1E;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.faq {
+    margin-top: 15%;
+    margin-bottom: 25%;
+}
+
+.col2 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footerup span {
+    font-family: 'Amita';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(43, 129, 221);
+}
+
+.footerup h6 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footerup p {
+    color: #8D8D89;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footerup input {
+    border: 0.3px solid rgb(43, 129, 221);
+    width: 417px;
+    padding: 10px;
+}
+
+.footerup textarea {
+    resize: none;
+    width: 417px;
+    height: 202px;
+    border: 0.3px solid rgb(43, 129, 221);
+    padding: 10px;
+}
+
+.query {
+    padding: 40px;
+    width: 530px;
+    background: #FFFFFF;
+    box-shadow: 35px 91px 39px rgba(175, 172, 172, 0.01), 19px 51px 33px rgba(175, 172, 172, 0.05), 9px 23px 24px rgba(175, 172, 172, 0.09), 2px 6px 13px rgba(175, 172, 172, 0.1), 0px 0px 0px rgba(175, 172, 172, 0.1);
+    border-radius: 25px;
+}
+.query button{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 25px;
+    color: #0157B4;
+    position: relative;
+    bottom: 65px;
+    left: 290px;
+    box-shadow: 6px 8px 4px rgba(151, 140, 140, 0.01), 3px 5px 3px rgba(151, 140, 140, 0.05), 2px 2px 3px rgba(151, 140, 140, 0.09), 0px 1px 1px rgba(151, 140, 140, 0.1), 0px 0px 0px rgba(151, 140, 140, 0.1);
+}
+.query button i{
+    font-weight: bold;
+}
+.query button:hover{
+    color: white;
+}
+
+/* footer */
+footer {
+    background-color: #F6F5F8;
+}
+
+footer .wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+footer .wrapper div {
+    padding: 25px;
+}
+
+footer p,
+a {
+    color: #8D8D89;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+footer h1 {
+    font-family: 'Amita';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(43, 129, 221);
+}
+footer h6{
+    color: #1E1E1E;
+}
+
+footer img {
+    padding-right: 10px;
+    padding-top: 10px;
+}
